@@ -92,6 +92,7 @@ export default function Footer() {
             <Link
               href="/ochrana-osobnych-udajov"
               className="text-gray-500 hover:text-white transition-colors"
+              prefetch={false}
             >
               Ochrana osobných údajov
             </Link>

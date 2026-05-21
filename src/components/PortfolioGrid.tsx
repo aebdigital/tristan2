@@ -17,6 +17,7 @@ export default function PortfolioGrid() {
               key={project.id}
               href={`/projekt/${project.slug}`}
               className="portfolio-item aspect-[4/3] relative block group"
+              prefetch={false}
             >
               <Image
                 src={project.thumbnail}

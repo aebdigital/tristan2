@@ -35,7 +35,7 @@ export default function Hero() {
       <motion.div className="relative z-10 h-full flex flex-col items-start justify-center text-left px-6 md:px-20 max-w-5xl"
         style={{ opacity: textOpacity }}
       >
-        <h1 className="text-white text-4xl md:text-6xl lg:text-7xl font-light uppercase tracking-wider mb-8 leading-tight">
+        <h1 className="text-white text-4xl md:text-6xl lg:text-7xl font-light uppercase tracking-normal mb-8 leading-tight">
           <span className="font-bold">MODERNÉ</span><br />
           <span className="font-bold">ARCHITEKTONICKÉ</span><br />
           ŠTÚDIO
