@@ -1,3 +1,4 @@
+import JsonLd from "../components/JsonLd";
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
@@ -109,6 +110,7 @@ export default function RootLayout({
   return (
     <html lang="sk">
       <body className={`${montserrat.variable} antialiased font-sans flex flex-col min-h-screen`}>
+        <JsonLd />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
